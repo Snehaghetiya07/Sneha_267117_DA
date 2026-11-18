@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneha Ghetiya - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font for sleek modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Floating Glass Navbar -->
+    <header>
+        <nav>
+            <h2 class="logo">Sneha<span>.</span></h2>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- Theme Toggle Button -->
+            <button id="theme-toggle">☀️ Light</button>
+        </nav>
+    </header>
+
+    <!-- Hero / About Section -->
+    <section id="about" class="hero">
+        <span class="badge">Welcome to my universe ✨</span>
+        <h1>Hi, I'm <span class="gradient-text">Sneha Ghetiya</span></h1>
+        <p class="subtitle">Second-year B.Tech Computer Science student passionate about technology, aesthetic design, and building creative web experiences!</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">My Tech Stack & Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">💻 HTML5 & CSS3</div>
+            <div class="skill-card">⚡ JavaScript Basics</div>
+            <div class="skill-card">🐍 Python Programming</div>
+            <div class="skill-card">🎨 Design Thinking</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-tag">Web App</div>
+                <h3>Kdrama Diary</h3>
+                <p>A personal web platform built to track, review, and organize favourite Korean dramas with an interactive watchlist feature.</p>
+            </div>
+            <div class="project-card">
+                <div class="project-tag">Resource Hub</div>
+                <h3>Study Notes Hub</h3>
+                <p>A clean, aesthetic digital space designed to manage and share Computer Science & B.Tech semester notes and study materials seamlessly.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-wrapper">
+            <form id="contact-form">
+                <div class="input-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Your Email Address" required>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" placeholder="Your Message..." rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message 🚀</button>
+            </form>
+            <p id="form-msg"></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Sneha Ghetiya. Crafted with creativity & code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
